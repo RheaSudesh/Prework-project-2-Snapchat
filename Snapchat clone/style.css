@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Merriweather Sans";
+  }
+  .nav{
+    background-color: white;
+    margin-top:0px;
+  }
+
+  #logo{
+height: 20px;
+width: 20px;
+margin-right: 10px;
+margin-top:20px ;
+  }
+
+  .menu{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .menu-item{
+    margin-top: 18px;
+    display: flexbox;
+    align-content: center;
+    
+  }
+  .menu-item a{
+    color: black;
+    padding: 15px;
+    position: relative;
+    font-size: 10px;
+    font-weight: 500px;
+  }
+  .menu-item a::after{
+    content: "";
+    align-items: center;
+    position: absolute;
+    display: none;
+    left: 30%;
+    
+    width: 40%;
+    height: 2px;
+    background-color:black;
+    border-radius: 5px;
+    
+  }
+  .menu-item a:hover::after{
+    display: block;
+  }
+  
+   .home {
+       margin-top: 17px;
+       background:yellow;
+       height: 515px;
+   }
+
+   h1{
+       padding-top: 50px;
+       text-align: center;
+       font-size: 40px;
+   }
+
+   .bitmoji{
+       height: 250px;
+       width: 250px;
+   }
+
+   article{
+    
+    color: black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5%;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 0px;
+    
+}
+
+#bitmoji {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+    padding-left: 157px;
+    
+}
+
+
+.bitmoji{
+    display: flex;
+    margin: 10px 0px;
+    width: 100%;
+    
+}
+
+#bottom{
+height: 50px;
+width: 150px;
+}
+
+section{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.button{
+    padding-left: 45.5%;
+    padding-top: 3%;
+}
+
+.footer-container{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.footer{
+  width:80%;
+  height: 40vh;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  
+}
+
+h6{
+  padding-bottom: 10px;
+}
+
+a{
+  font-size: 10px;
+  padding-bottom: 7px;
+  color:gray;
+  font-weight:300px ;
+}
+
+a:hover{
+  
+  color:black;
+  
+}
+
+.footer-heading h2{
+  margin-bottom: 2rem;
+}
+
+.footer-2,.footer-3{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-1{
+  margin-left: 90px;
+  padding-right: 10px;
+}
+
+.footer-4{
+  padding-left: 30px;
+
+}
+
+
+#language{
+  padding-top: 40px;
+}
+
+select{
+  color: gray;
+  height: 20px;
+  width: 90px;
+  font-size: 10px;
+}
+
+.close{
+  background-color: black;
+  height:50px;
+}
+
+#closer{
+  font-size:12px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  align-content: center;
+  padding-right: 30px;
+  
+
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:20px 0 20px 250px;
+  font-size:30px;
+  line-height:20px;
+  color:white;
+}
+
+.site-footer #closer:hover{
+  color: gray;
+}
